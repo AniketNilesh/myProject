@@ -162,9 +162,35 @@ section h1:hover{
     transition: 0.5s;
 }
 
-.pro img{
+
+.pro{
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* .pro img{
     z-index: 0;
     position: absolute;
     top: 30%;
     left: 35%;
+} */
+
+.pro h2{
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.pro h2 .name{
+    color: #0088a9;
 }
